@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.Nikhila</groupId>
   <artifactId>java-web-app</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>java-web-app</name>
+  <packaging>war</packaging>
+  <version>E:\Maven-Practice\java-web-app</version>
+  <name>java-web-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -15,4 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <finalName>java-web-app</finalName>
+  </build>
 </project>
